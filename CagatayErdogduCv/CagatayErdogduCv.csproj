@@ -166,6 +166,17 @@
     <Content Include="assets\img\portfolio\sqlQuery\db_query4.jpg" />
     <Content Include="assets\img\portfolio\sqlQuery\db_query5.jpg" />
     <Content Include="assets\img\portfolio\sqlQuery\db_ssis_kontrol.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafa1.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafa2.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafa3.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafa4.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafaCode1.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafaCode2.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafaCode3.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafaCode4.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafaCode5.jpg" />
+    <Content Include="assets\img\portfolio\web\MarkaKafaCode6.jpg" />
+    <Content Include="assets\img\portfolio\web\web3.jpg" />
     <Content Include="assets\img\profile-img.jpg" />
     <Content Include="assets\img\whatsapp1.jpg" />
     <Content Include="assets\img\x__hero-bg.jpg" />
