@@ -15,8 +15,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="~/assets/img/favicon.png" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -25,15 +25,15 @@
     @*@Styles.Render("~/cssBundle/allstyles")*@
     @*@Scripts.Render("~/jsBunlde/allscripts")*@
 
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="~/assets/css/style.css" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: iPortfolio
@@ -54,7 +54,7 @@
             <div class="d-flex flex-column">
 
                 <div class="profile">
-                    <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                    <img src="~/assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
                     <h1 class="text-light"><a href="Index">Çağatay Erdoğdu</a></h1>
                     <div class="social-links mt-3 text-center">
                         <a href="https://twitter.com/ErdogduCagatay" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -68,18 +68,18 @@
 
                 <nav id="navbar" class="nav-menu navbar">
                     <ul>
-                        <li><a href="#anasayfa" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Anasayfa</span></a></li>
-                        <li><a href="#hakkimda" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a></li>
-                        <li><a href="#durumum" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Durumum</span></a></li>
-                        <li><a href="#portfoy" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portföy</span></a></li>
+                        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Anasayfa</span></a></li>
+                        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a></li>
+                        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Durumum</span></a></li>
+                        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portföy</span></a></li>
                         @*<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Hizmetler</span></a></li>*@
-                        <li><a href="#iletisim" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>İletişim</span></a></li>
+                        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>İletişim</span></a></li>
                     </ul>
                 </nav><!-- .nav-menu -->
             </div>
         </header><!-- End Header -->
         <!-- ======= Hero Section ======= -->
-        <section id="anasayfa" class="d-flex flex-column justify-content-center align-items-center">
+        <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
             <div class="hero-container" data-aos="fade-in">
                 <h1>Çağatay Erdoğdu</h1>
                 <p>I'm <span class="typed" data-typed-items="Developer, Freelancer, Voyager"></span></p>
@@ -89,7 +89,7 @@
         <main id="main">
 
             <!-- ======= About Section ======= -->
-            <section id="hakkimda" class="about">
+            <section id="about" class="about">
                 <div class="container">
 
                     <div class="section-title">
@@ -113,7 +113,7 @@
 
                     <div class="row">
                         <div class="col-lg-4" data-aos="fade-right">
-                            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                            <img src="~/assets/img/profile-img.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                             <h3>Backend Developer &amp; ETL/DWH Developer</h3>
@@ -353,7 +353,7 @@
                 </div>
             </section><!-- End Skills Section -->
             <!-- ======= Resume Section ======= -->
-            <section id="durumum" class="resume">
+            <section id="resume" class="resume">
                 <div class="container">
 
                     <div class="section-title">
@@ -582,7 +582,7 @@
                 </div>
             </section><!-- End Resume Section -->
             <!-- ======= Portfolio Section ======= -->
-            <section id="portfoy" class="portfolio section-bg">
+            <section id="portfolio" class="portfolio section-bg">
                 <div class="container">
 
                     <div class="section-title">
@@ -604,14 +604,16 @@
 
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-                        <!----------------Portfolio------------------>
+                        <!----------------Portfolio---------BURADA JPG LERİN HREF LERİNİ GİZLEYECEK JQUERY YAZILACAK.--------->
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/software/ssyntm1.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/software/ssyntm1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/software/ssyntm1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MANAGEMENT PANEL"><i class="bx bx-plus"></i></a>
-                                    <a href="Home/PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/software/ssyntm1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MANAGEMENT PANEL">
+                                        <i class="bx bx-plus"></i>
+                                    </a>
+                                    <a href="PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -621,7 +623,7 @@
                                 <img src="assets/img/portfolio/etl/ssis_tm_webapi.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/etl/ssis_tm_webapi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SSIS WEB API ETL"><i class="bx bx-plus"></i></a>
-                                    <a href="Home/PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -630,18 +632,19 @@
                             <div class="portfolio-wrap">
                                 <img src="assets/img/portfolio/sqlQuery/db_query1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/sqlQuery/db_query1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-SQL"><i class="bx bx-plus"></i></a>
-                                    <a href="Home/PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/sqlQuery/db_query1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-SQL">
+                                    <i class="bx bx-plus"></i></a>
+                                    <a href="PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-wrap">
-                                <img src="~/assets/img/portfolio/web/MarkaKafa1.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/portfolio/web/MarkaKafa1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/web/MarkaKafa1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MarKa Kafa Web Sitesi"><i class="bx bx-plus"></i></a>
-                                    <a href="Home/PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -650,9 +653,10 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/software/plicnsl.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/software/plicnsl.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/software/plicnsl.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="PLIConsole EXE"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/software/plicnsl.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="PLIConsole EXE">
+                                    <i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -660,9 +664,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-etl">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/etl/ssis_pzrlmadepthedf.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/etl/ssis_pzrlmadepthedf.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/etl/ssis_pzrlmadepthedf.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SSIS UNPIVOT ETL"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/etl/ssis_pzrlmadepthedf.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SSIS UNPIVOT ETL"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -670,9 +674,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-sql">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/sqlQuery/db_query3.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/sqlQuery/db_query3.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/sqlQuery/db_query3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-SQL in HTML"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/sqlQuery/db_query3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-SQL in HTML"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -692,9 +696,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/software/clrhs1.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/software/clrhs1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/software/clrhs1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web API"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/software/clrhs1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web API"><i class="bx bx-plus"></i></a>
                                     <a href="PortfoyDetay" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -702,9 +706,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-etl">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/etl/ssis_kartinfo.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/etl/ssis_kartinfo.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/etl/ssis_kartinfo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SSIS CARD INFO ETL"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/etl/ssis_kartinfo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SSIS CARD INFO ETL"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -712,9 +716,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-sql">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/sqlQuery/db_query5.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/sqlQuery/db_query5.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/sqlQuery/db_query5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-SQL in STORE PROCEDURE"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/sqlQuery/db_query5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-SQL in STORE PROCEDURE"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -734,9 +738,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/software/spy2.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/software/spy2.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/software/spy2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="REST API"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/software/spy2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="REST API"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -744,9 +748,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-etl">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/etl/DS/1.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/etl/DS/1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/etl/DS/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DATA SERVICES ETL JOB"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/etl/DS/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DATA SERVICES ETL JOB"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -754,9 +758,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-sql">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/sqlQuery/db_query_sybase.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/sqlQuery/db_query_sybase.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/sqlQuery/db_query_sybase.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SYBASE PLSQL"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/sqlQuery/db_query_sybase.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SYBASE PLSQL"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -776,9 +780,9 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-etl">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/etl/DS/2.jpg" class="img-fluid" alt="">
+                                <img src="~/assets/img/portfolio/etl/DS/2.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/etl/DS/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DATA SERVICES ETL DATA FLOW"><i class="bx bx-plus"></i></a>
+                                    <a href="~/assets/img/portfolio/etl/DS/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DATA SERVICES ETL DATA FLOW"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -928,7 +932,7 @@
         </section>-->
             <!-- End Testimonials Section -->
             <!-- ======= Contact Section ======= -->
-            <section id="iletisim" class="contact">
+            <section id="contact" class="contact">
                 <div class="container">
 
                     <div class="section-title">
@@ -955,7 +959,7 @@
                                 <div class="phone">
                                     <i class="bi bi-phone"></i>
                                     <h4>Telefon:</h4>
-                                    <p>+90536 585 40 24</p>
+                                    <p>Mail ile talep ediniz lütfen.</p> <!-- +90536 585 40 24 -->
                                 </div>
 
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.5072320429318!2d29.092281676981486!3d41.02462305120266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8f6308e5a55%3A0x17462620456a653d!2zQXRhdMO8cmssIEF0YXTDvHJrIE1haCBZZcWfaWwgU2sgTWVkaW5lIENhbWkgTm86MTIsIDM0NzY0IMOcbXJhbml5ZS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1704914809678!5m2!1str!2str" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
@@ -1022,18 +1026,18 @@
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
         <!-- Vendor JS Files -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/typed.js/typed.umd.js"></script>
-        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="~/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="~/assets/vendor/aos/aos.js"></script>
+        <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="~/assets/vendor/typed.js/typed.umd.js"></script>
+        <script src="~/assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="~/assets/vendor/php-email-form/validate.js"></script>
 
         <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
+        <script src="~/assets/js/main.js"></script>
 
 
     </body>
