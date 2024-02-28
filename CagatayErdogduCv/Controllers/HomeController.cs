@@ -13,9 +13,9 @@ namespace CagatayErdogduCv.Controllers
         {
             return View();
         }
-        public ActionResult PortfoyDetay()
-        {
-            return View();
-        }
+        //public ActionResult PortfoyDetay()
+        //{
+        //    return View();
+        //}
     }
 }
