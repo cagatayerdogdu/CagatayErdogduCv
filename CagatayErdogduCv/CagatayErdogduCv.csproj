@@ -337,6 +337,7 @@
     <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.1.min.map" />
     <Content Include="Views\Home\PortfoyDetay.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage1.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -349,7 +350,6 @@
     <Folder Include="assets\waypoints\" />
     <Folder Include="forms\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
