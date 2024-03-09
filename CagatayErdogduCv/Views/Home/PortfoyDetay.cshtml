@@ -13,7 +13,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h2>Portföy Detay</h2>
                     <ol>
-                        <li><a href="Index">Anasayfa</a></li>
+                        @*<li><a href="Home/Index">Anasayfa</a></li>*@
+                        <li>@Html.ActionLink("Anasayfa","Index", "Home")</li>
                         <li>Portföy Detay</li>
                     </ol>
                 </div>
@@ -25,9 +26,16 @@
             <div class="container">
 
                 @{ 
-                    string urlSrc = ViewBag.imgUrl;
+                    var urlSrc = ViewBag.imgUrl;
+                    var uygulamaTipi = ViewBag.uygulamaTipi;
                 }
-
+                @*TODO: Burada bir algoritma türetmem gerekiyor. Gelen uygulama tipine göre dizine giderek imgUrl isimleri tespit edilecek.
+                    Sonra jquery ile dinamik div oluşturularak bu imgUrl ler ile fotolar görünecek ve detay yazıları verilecek.
+                    Ya da bunlar çok karışık bir hal aldığı için ya her detay sayfası için bir controller yada detay controller içinde bir 
+                    action tanımlanacak. Detaya tıklandığında o sayfa yada actiona giderek ilgili detay safyası açılacak.
+                    Bunun için dinamik actionView oluşturulabilir mi? yada hepsi için bir kez tanım yapılacak gelen tipe göre
+                    o sayfa gösterilecek. Sanki bu daha kolay olacak gibi fakat buradaki handikap tüm detay sayfalarını tek tek oluşturmak 
+                    gerekecek. Detayı görüntülenmek istenen görüntüye tıklandığında onun bilgisi alınarak o detay sayfası açılacak.*@
                 <div class="row gy-4">
 
                     <div class="col-lg-8">
@@ -39,7 +47,7 @@
                                     <img src="~/assets/img/portfolio/software/ssisYP1.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src=@urlSrc alt="">
+                                    <img src = "@urlSrc" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
