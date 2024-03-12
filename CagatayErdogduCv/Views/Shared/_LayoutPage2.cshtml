@@ -66,18 +66,16 @@
                 <nav id="navbar" class="nav-menu navbar">
                     <ul>
                         <li>
-                            @*<a href="Home/Index/#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Anasayfa</span></a>*@
-                            <a href="@Url.Action("Index", "Home")" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Anasayfa</span></a>
-                            @*@Html.ActionLink("Anasayfa", "Index", "Home", new {@class= "nav-link scrollto active bx bx-home" })*@
+                            <a href="@Url.Content("~/Home/Index/#hero")" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Anasayfa</span></a>
                         </li>
                         <li>
-                            @*<a href="Home/Index/#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a>*@
-                            <a href="@Url.Action("Index", "Home")" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a>
-                            @*<a href="@Url.Action("Index","Home",Url.Content("#about"))" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a>*@
+                            <a href="@Url.Content("~/Home/Index/#about")" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a>
                         </li>
-                        <li><a href="@Url.Content("#resume")" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Durumum</span></a></li>
-                        <li><a href="@Url.Content("#portfolio")" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portföy</span></a></li>
-                        <li><a href="@Url.Content("#contact")" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>İletişim</span></a></li>
+                        <li><a href="@Url.Content("~/Home/Index/#resume")" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Durumum</span></a></li>
+                        <li>
+                            <a href="@Url.Content("~/Home/Index/#portfolio")" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Portföy</span></a>
+                        </li>
+                        <li><a href="@Url.Content("~/Home/Index/#contact")" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>İletişim</span></a></li>
 
                     </ul>
                 </nav><!-- .nav-menu -->

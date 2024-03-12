@@ -1,0 +1,86 @@
+﻿@using System.Web.Optimization
+@{
+    ViewBag.Title = "Çağatay Erdoğdu Kişisel Web Sitesi - Portföy Detay";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>Portföy Detay</h2>
+                <ol>
+                    @*<li><a href="Home/Index">Anasayfa</a></li>*@
+                    <li>@Html.ActionLink("Anasayfa", "Index", "Home")</li>
+                    <li>Portföy Detay</li>
+                </ol>
+            </div>
+
+        </div>
+    </section><!-- End Breadcrumbs -->
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+
+            @{
+                var urlSrc = ViewBag.imgUrl;
+                var uygulamaTipi = ViewBag.uygulamaTipi;
+            }
+            @*TODO: Burada bir algoritma türetmem gerekiyor. Gelen uygulama tipine göre dizine giderek imgUrl isimleri tespit edilecek.
+                Sonra jquery ile dinamik div oluşturularak bu imgUrl ler ile fotolar görünecek ve detay yazıları verilecek.
+                Ya da bunlar çok karışık bir hal aldığı için ya her detay sayfası için bir controller yada detay controller içinde bir
+                action tanımlanacak. Detaya tıklandığında o sayfa yada actiona giderek ilgili detay sayfası açılacak.
+                Bunun için dinamik actionView oluşturulabilir mi? yada hepsi için bir kez tanım yapılacak gelen tipe göre
+                o sayfa gösterilecek. Sanki bu daha kolay olacak gibi fakat buradaki handikap tüm detay sayfalarını tek tek oluşturmak
+                gerekecek. Detayı görüntülenmek istenen görüntüye tıklandığında onun bilgisi alınarak o detay sayfası açılacak.*@
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/software/ssisYP1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="@urlSrc" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="portfolio-info">
+                        <h3>Proje bilgileri</h3>
+                        <ul>
+                            <li><strong>Kategori</strong>: Masaüstü uygulaması</li>
+                            <li><strong>Kullanıcı</strong>: Paycore</li>
+                            <li><strong>Proje Tarihi</strong>: 2022 </li>
+                            <li><strong>Proje URL</strong>: <a href="#">Şirket içi kullanım</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="portfolio-description">
+                        <h2>SSIS Yönetim Paneli Detay</h2>
+                        <p>
+                            Uygulama .NET CORE ile geliştirilerek şirket içindeki tüm ETL/ELT paketlerinin kontrolü, tetiklenmesi, loglanması gibi tüm yönetimsel araçları içerir.
+                            Ayrıca, database deki session bilgilerini göstererek gerekli işlemleri yapmaya olanak sağlar.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->
