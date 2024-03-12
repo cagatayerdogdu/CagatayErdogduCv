@@ -9,15 +9,19 @@ namespace CagatayErdogduCv.Controllers
 {
     public class PortfoyDetayController : Controller
     {
+        string gelenDeger = "";
+        string uygulamaTipi = "";
+        string imgIsim = "";
+        string tipDizin = "";
+
         // GET: PortfoyDetay
         public ActionResult Index(string id)
         {
             if (id != null || !id.IsEmpty())
             {
-                string gelenDeger = id;
-                string uygulamaTipi = gelenDeger.Substring(gelenDeger.IndexOf("_") + 1, 3);
-                string imgIsim = gelenDeger.Substring(0, gelenDeger.IndexOf("_")) + ".jpg";
-                string tipDizin = "";
+                gelenDeger = id;
+                uygulamaTipi = gelenDeger.Substring(gelenDeger.IndexOf("_") + 1, 3);
+                imgIsim = gelenDeger.Substring(0, gelenDeger.IndexOf("_")) + ".jpg";
                 switch (uygulamaTipi)
                 {
                     case "app":
@@ -36,15 +40,16 @@ namespace CagatayErdogduCv.Controllers
                 string urlImg = "/assets/img/portfolio/" + tipDizin + "/" + imgIsim;
                 ViewBag.imgUrl = urlImg;
                 ViewBag.detailValue = imgIsim;
-                ViewBag.uygulamaTipi = uygulamaTipi;
+                //ViewBag.uygulamaTipi = uygulamaTipi;
                 //return View();
-                return RedirectToAction("Detay", ViewBag.uygulamaTipi);
+                return RedirectToAction("Detay", "PortfoyDetay", new {tip = uygulamaTipi});
             }
             else
                 return Redirect("Index");
         }
-        public ActionResult Detay(string uygulamaTip)
+        public ActionResult Detay(string tip)
         {
+            ViewBag.uygulamaTipi = tip;
             return View();
         }
     }
