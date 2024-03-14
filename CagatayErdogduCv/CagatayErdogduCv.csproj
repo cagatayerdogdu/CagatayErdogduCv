@@ -342,6 +342,7 @@
     <Content Include="Views\Shared\_LayoutPage2.cshtml" />
     <Content Include="Views\PortfoyDetay\Index.cshtml" />
     <Content Include="Views\PortfoyDetay\Detay.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialSsisYonetim.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

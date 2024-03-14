@@ -28,7 +28,8 @@
 
             @{
                 var uygulamaTipi = ViewBag.uygulamaTipi;
-                var urlSrc = ViewBag.imgUrl;
+                var urlSrc = ViewBag.url;
+                var isim = ViewBag.isim;
             }
             @*TODO: Burada bir algoritma türetmem gerekiyor. Gelen uygulama tipine göre dizine giderek imgUrl isimleri tespit edilecek.
                 Sonra jquery ile dinamik div oluşturularak bu imgUrl ler ile fotolar görünecek ve detay yazıları verilecek.
@@ -39,65 +40,17 @@
                 gerekecek. Detayı görüntülenmek istenen görüntüye tıklandığında onun bilgisi alınarak o detay sayfası açılacak.*@
             <div class="row gy-4">
 
-                <div class="col-lg-8">
-                    <div class="portfolio-details-slider swiper">
+                @{
+                    switch (isim)
+                    {
+                        case "ssyntm1.jpg":
+                            @Html.Partial("_PartialSsisYonetim");
+                            break;
+                            
+                    }
 
-                        <div class="swiper-wrapper align-items-center">
+                }
 
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssisYP1.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssyntm1.jpg" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssisYP2.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssyntm2.jpg" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssisYP3.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssyntm3.jpg" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssisYP4.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="~/assets/img/portfolio/software/ssyntm4.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-
-                    <div class="portfolio-info">
-                        <h3>Proje bilgileri</h3>
-                        <ul>
-                            <li><strong>Kategori</strong>: Masaüstü uygulaması</li>
-                            <li><strong>Kullanıcı</strong>: Paycore</li>
-                            <li><strong>Proje Tarihi</strong>: 2022 </li>
-                            <li><strong>Proje URL</strong>: <a href="#">Şirket içi kullanım</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="portfolio-description">
-                        <h2>SSIS Yönetim Paneli Detay</h2>
-                        <p>
-                            Uygulama .NET CORE ile geliştirilerek şirket içindeki tüm ETL/ELT paketlerinin kontrolü, tetiklenmesi, loglanması gibi tüm yönetimsel araçları içerir.
-                            Ayrıca, database deki session bilgilerini göstererek gerekli işlemleri yapmaya olanak sağlar.
-                        </p>
-                    </div>
-
-                </div>
 
             </div>
 

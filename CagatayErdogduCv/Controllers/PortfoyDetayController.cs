@@ -42,14 +42,15 @@ namespace CagatayErdogduCv.Controllers
                 ViewBag.detailValue = imgIsim;
                 //ViewBag.uygulamaTipi = uygulamaTipi;
                 //return View();
-                return RedirectToAction("Detay", "PortfoyDetay", new {tip = uygulamaTipi});
+                return RedirectToAction("Detay", "PortfoyDetay", new {tip = uygulamaTipi, isim = imgIsim });
             }
             else
                 return Redirect("Index");
         }
-        public ActionResult Detay(string tip)
+        public ActionResult Detay(string tip, string isim)
         {
             ViewBag.uygulamaTipi = tip;
+            ViewBag.isim = isim;
             return View();
         }
     }
