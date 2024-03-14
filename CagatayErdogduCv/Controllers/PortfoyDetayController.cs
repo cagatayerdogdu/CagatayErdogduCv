@@ -37,8 +37,8 @@ namespace CagatayErdogduCv.Controllers
                         tipDizin = "web";
                         break;
                 }
-                string urlImg = "/assets/img/portfolio/" + tipDizin + "/" + imgIsim;
-                ViewBag.imgUrl = urlImg;
+                //string urlImg = "/assets/img/portfolio/" + tipDizin + "/" + imgIsim;
+                //ViewBag.imgUrl = urlImg;
                 ViewBag.detailValue = imgIsim;
                 //ViewBag.uygulamaTipi = uygulamaTipi;
                 //return View();

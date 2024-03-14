@@ -343,6 +343,9 @@
     <Content Include="Views\PortfoyDetay\Index.cshtml" />
     <Content Include="Views\PortfoyDetay\Detay.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialSsisYonetim.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialClrhs.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialTMWebApiETL.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialSql.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -27,8 +27,8 @@
         <div class="container">
 
             @{
-                var uygulamaTipi = ViewBag.uygulamaTipi;
-                var urlSrc = ViewBag.url;
+                //var uygulamaTipi = ViewBag.uygulamaTipi;
+                //var urlSrc = ViewBag.url;
                 var isim = ViewBag.isim;
             }
             @*TODO: Burada bir algoritma türetmem gerekiyor. Gelen uygulama tipine göre dizine giderek imgUrl isimleri tespit edilecek.
@@ -46,7 +46,19 @@
                         case "ssyntm1.jpg":
                             @Html.Partial("_PartialSsisYonetim");
                             break;
-                            
+                        case "ssis_tm_webapi.jpg":
+                            @Html.Partial("_PartialTMWebApiETL");
+                            break;
+                        case "db_query1.jpg":
+                            @Html.Partial("_PartialSql");
+                            break;
+
+
+                        case "clrhs1.jpg":
+                            @Html.Partial("_PartialClrhs");
+                            break;
+
+
                     }
 
                 }
