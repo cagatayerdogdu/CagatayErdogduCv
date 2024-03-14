@@ -43,22 +43,26 @@
                 @{
                     switch (isim)
                     {
-                        case "ssyntm1.jpg":
+                        case "ssyntm_app":
                             @Html.Partial("_PartialSsisYonetim");
                             break;
-                        case "ssis_tm_webapi.jpg":
+                        case "ssistmwebapi_etl":
                             @Html.Partial("_PartialTMWebApiETL");
                             break;
-                        case "db_query1.jpg":
+                        case "dbquery_sql":
                             @Html.Partial("_PartialSql");
                             break;
-
-
-                        case "clrhs1.jpg":
-                            @Html.Partial("_PartialClrhs");
+                        case "MarkaKafa_web":
+                            @Html.Partial("_PartialMarKaKafa");
                             break;
 
 
+                        case "clrhs_app":
+                            @Html.Partial("_PartialClrhs");
+                            break;
+                        case "Hukuk_web":
+                            @Html.Partial("_PartialWebHukuk");
+                            break;
                     }
 
                 }

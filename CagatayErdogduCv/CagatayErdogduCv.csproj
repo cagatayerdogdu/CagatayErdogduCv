@@ -346,6 +346,8 @@
     <Content Include="Views\PortfoyDetay\_PartialClrhs.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialTMWebApiETL.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialSql.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialMarKaKafa.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialWebHukuk.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

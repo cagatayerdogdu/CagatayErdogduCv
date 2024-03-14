@@ -21,7 +21,7 @@ namespace CagatayErdogduCv.Controllers
             {
                 gelenDeger = id;
                 uygulamaTipi = gelenDeger.Substring(gelenDeger.IndexOf("_") + 1, 3);
-                imgIsim = gelenDeger.Substring(0, gelenDeger.IndexOf("_")) + ".jpg";
+                //imgIsim = gelenDeger.Substring(0, gelenDeger.IndexOf("_")) + ".jpg";
                 switch (uygulamaTipi)
                 {
                     case "app":
@@ -42,7 +42,7 @@ namespace CagatayErdogduCv.Controllers
                 ViewBag.detailValue = imgIsim;
                 //ViewBag.uygulamaTipi = uygulamaTipi;
                 //return View();
-                return RedirectToAction("Detay", "PortfoyDetay", new {tip = uygulamaTipi, isim = imgIsim });
+                return RedirectToAction("Detay", "PortfoyDetay", new {tip = uygulamaTipi, isim = gelenDeger });
             }
             else
                 return Redirect("Index");
