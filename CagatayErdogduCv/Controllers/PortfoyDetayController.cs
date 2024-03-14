@@ -39,7 +39,7 @@ namespace CagatayErdogduCv.Controllers
                 }
                 //string urlImg = "/assets/img/portfolio/" + tipDizin + "/" + imgIsim;
                 //ViewBag.imgUrl = urlImg;
-                ViewBag.detailValue = imgIsim;
+                //ViewBag.detailValue = gelenDeger;
                 //ViewBag.uygulamaTipi = uygulamaTipi;
                 //return View();
                 return RedirectToAction("Detay", "PortfoyDetay", new {tip = uygulamaTipi, isim = gelenDeger });
