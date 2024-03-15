@@ -110,32 +110,13 @@
     <Content Include="assets\img\hero-bg__.jpg" />
     <Content Include="assets\img\hero-bg__1.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\1.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\10.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\11.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\13.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\14.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\15.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\16.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\17.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\18.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\19.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\2.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\20.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\21.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\3.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\4.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\5.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\6.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\7.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\8.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\9.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\CSV For DS.JPG" />
-    <Content Include="assets\img\portfolio\etl\DS\CSV Import Formatı.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\DS_Conditional IF Kullanım Örnek.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\DS_Replace fonksiyon kullanım örnek.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\FordSira_YTD.JPG" />
     <Content Include="assets\img\portfolio\etl\DS\WorkFlow içindekiler 1.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\WorkFlow içindekiler 2.jpg" />
     <Content Include="assets\img\portfolio\etl\ssis_cagrimerkezi.jpg" />
     <Content Include="assets\img\portfolio\etl\ssis_daphne.jpg" />
     <Content Include="assets\img\portfolio\etl\ssis_detoken.jpg" />
@@ -348,6 +329,8 @@
     <Content Include="Views\PortfoyDetay\_PartialSql.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialMarKaKafa.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialWebHukuk.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialPliCnsl.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialSSIS_ETL.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

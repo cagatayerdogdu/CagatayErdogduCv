@@ -49,7 +49,7 @@ namespace CagatayErdogduCv.Controllers
         }
         public ActionResult Detay(string tip, string isim)
         {
-            ViewBag.uygulamaTipi = tip;
+            //ViewBag.uygulamaTipi = tip;
             ViewBag.isim = isim;
             return View();
         }
