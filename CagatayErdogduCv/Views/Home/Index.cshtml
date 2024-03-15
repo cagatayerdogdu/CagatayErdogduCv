@@ -482,7 +482,7 @@
 
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-                        <!----------------Portfolio---------BURADA JPG LERİN HREF LERİNİ GİZLEYECEK JQUERY YAZILACAK.--------->
+                        <!----------------Portfolio------------------>
                         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div class="portfolio-wrap">
                                 <img src="/assets/img/portfolio/software/ssyntm1.jpg" class="img-fluid" alt="">
@@ -597,7 +597,8 @@
                                 <img src="~/assets/img/portfolio/etl/ssis_kartinfo.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
                                     <a href="~/assets/img/portfolio/etl/ssis_kartinfo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SSIS CARD INFO ETL"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    @*<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>*@
+                                    @Html.ActionLink(" ", "Index", "PortfoyDetay", new { id = "ssis_etl" }, new { @class = "bx bx-link" })
                                 </div>
                             </div>
                         </div>
@@ -631,7 +632,8 @@
                                 <img src="~/assets/img/portfolio/software/spy2.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
                                     <a href="~/assets/img/portfolio/software/spy2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="REST API"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    @*<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>*@
+                                    @Html.ActionLink(" ", "Index", "PortfoyDetay", new { id = "spy_app" }, new { @class = "bx bx-link" })
                                 </div>
                             </div>
                         </div>
@@ -641,7 +643,8 @@
                                 <img src="~/assets/img/portfolio/etl/DS/1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
                                     <a href="~/assets/img/portfolio/etl/DS/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DATA SERVICES ETL JOB"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    @*<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>*@
+                                    @Html.ActionLink(" ", "Index", "PortfoyDetay", new { id = "ds_etl" }, new { @class = "bx bx-link" })
                                 </div>
                             </div>
                         </div>
@@ -675,7 +678,8 @@
                                 <img src="~/assets/img/portfolio/etl/DS/2.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-links">
                                     <a href="~/assets/img/portfolio/etl/DS/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DATA SERVICES ETL DATA FLOW"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    @*<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>*@
+                                    @Html.ActionLink(" ", "Index", "PortfoyDetay", new { id = "ds_etl" }, new { @class = "bx bx-link" })
                                 </div>
                             </div>
                         </div>
@@ -686,7 +690,7 @@
                                 <div class="portfolio-links">
                                     <a href="~/assets/img/portfolio/web/webHukukCode1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hukuk Web Sitesi"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    @Html.ActionLink(" ", "Index", "PortfoyDetay", new { id = "webHukuk1" }, new { @class = "bx bx-link" })
+                                    @Html.ActionLink(" ", "Index", "PortfoyDetay", new { id = "Hukuk_web" }, new { @class = "bx bx-link" })
                                 </div>
                             </div>
                         </div>

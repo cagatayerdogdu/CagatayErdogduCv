@@ -101,22 +101,19 @@
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\Copy of apple-touch-icon.png" />
     <Content Include="assets\img\favicon.png" />
-    <Content Include="assets\img\hero-bg--.jpg" />
     <Content Include="assets\img\hero-bg-.jpg" />
     <Content Include="assets\img\hero-bg.jpg" />
-    <Content Include="assets\img\hero-bg4.jpg" />
-    <Content Include="assets\img\hero-bg5.jpg" />
-    <Content Include="assets\img\hero-bg_.jpg" />
+    <Content Include="assets\img\hero-bg2.jpg" />
     <Content Include="assets\img\hero-bg__.jpg" />
     <Content Include="assets\img\hero-bg__1.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\1.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\17.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\18.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\19.jpg" />
+    <Content Include="assets\img\portfolio\etl\DS\5.jpg" />
+    <Content Include="assets\img\portfolio\etl\DS\6.jpg" />
+    <Content Include="assets\img\portfolio\etl\DS\7.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\2.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\3.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\5.jpg" />
-    <Content Include="assets\img\portfolio\etl\DS\WorkFlow içindekiler 1.jpg" />
+    <Content Include="assets\img\portfolio\etl\DS\4.jpg" />
+    <Content Include="assets\img\portfolio\etl\DS\WorkFlow.jpg" />
     <Content Include="assets\img\portfolio\etl\ssis_cagrimerkezi.jpg" />
     <Content Include="assets\img\portfolio\etl\ssis_daphne.jpg" />
     <Content Include="assets\img\portfolio\etl\ssis_detoken.jpg" />
@@ -159,7 +156,6 @@
     <Content Include="assets\img\portfolio\web\MarkaKafaCode6.jpg" />
     <Content Include="assets\img\portfolio\web\web3.jpg" />
     <Content Include="assets\img\profile-img.jpg" />
-    <Content Include="assets\img\whatsapp1.jpg" />
     <Content Include="assets\img\x__hero-bg.jpg" />
     <Content Include="assets\img\x__profile-img.jpg" />
     <Content Include="assets\js\main.js" />
@@ -331,6 +327,8 @@
     <Content Include="Views\PortfoyDetay\_PartialWebHukuk.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialPliCnsl.cshtml" />
     <Content Include="Views\PortfoyDetay\_PartialSSIS_ETL.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialDS_ETL.cshtml" />
+    <Content Include="Views\PortfoyDetay\_PartialSpyAPI.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
