@@ -29,7 +29,7 @@
             @{
                 //var uygulamaTipi = ViewBag.uygulamaTipi;
                 //var urlSrc = ViewBag.url;
-                var isim = ViewBag.isim;
+                var name = ViewBag.name;
             }
             @*TODO: Burada bir algoritma türetmem gerekiyor. Gelen uygulama tipine göre dizine giderek imgUrl isimleri tespit edilecek.
                 Sonra jquery ile dinamik div oluşturularak bu imgUrl ler ile fotolar görünecek ve detay yazıları verilecek.
@@ -41,7 +41,7 @@
             <div class="row gy-4">
 
                 @{
-                    switch (isim)
+                    switch (name)
                     {
                         case "ssyntm_app":
                             @Html.Partial("_PartialSsisYonetim");
