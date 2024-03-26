@@ -101,6 +101,8 @@
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\favicon.png" />
     <Content Include="assets\img\hero-bg.jpg" />
+    <Content Include="assets\img\hero-bg1.jpg" />
+    <Content Include="assets\img\hero-bg3.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\1.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\5.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\6.jpg" />
@@ -262,7 +264,7 @@
     <Content Include="assets\vendor\typed.js\typed.cjs.map" />
     <Content Include="assets\vendor\typed.js\typed.module.js.map" />
     <Content Include="assets\vendor\typed.js\typed.umd.js.map" />
-    <Content Include="assets\File\Çağatay ERDOĞDU__CV.pdf" />
+    <Content Include="assets\File\Çağatay_ERDOĞDU__CV.pdf" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
