@@ -15,7 +15,12 @@ namespace CagatayErdogduCv.Controllers
         {
             return View();
         }
-        
+        public FileResult CagatayErdogdu_CV_PDFGoster()
+        {
+            string pdfPath = Server.MapPath("~/assets/File/Çağatay_ERDOĞDU__CV.pdf");
+            return new FilePathResult(pdfPath, "application/pdf");
+        }
+
         //public ActionResult PortfoyDetay(string id)
         //{
 

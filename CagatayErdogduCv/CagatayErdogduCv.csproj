@@ -99,13 +99,8 @@
   <ItemGroup>
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\apple-touch-icon.png" />
-    <Content Include="assets\img\Copy of apple-touch-icon.png" />
     <Content Include="assets\img\favicon.png" />
-    <Content Include="assets\img\hero-bg-.jpg" />
     <Content Include="assets\img\hero-bg.jpg" />
-    <Content Include="assets\img\hero-bg2.jpg" />
-    <Content Include="assets\img\hero-bg__.jpg" />
-    <Content Include="assets\img\hero-bg__1.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\1.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\5.jpg" />
     <Content Include="assets\img\portfolio\etl\DS\6.jpg" />
@@ -156,8 +151,6 @@
     <Content Include="assets\img\portfolio\web\MarkaKafaCode6.jpg" />
     <Content Include="assets\img\portfolio\web\web3.jpg" />
     <Content Include="assets\img\profile-img.jpg" />
-    <Content Include="assets\img\x__hero-bg.jpg" />
-    <Content Include="assets\img\x__profile-img.jpg" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\scss\Readme.txt" />
     <Content Include="assets\vendor\aos\aos.cjs.js" />
@@ -269,6 +262,7 @@
     <Content Include="assets\vendor\typed.js\typed.cjs.map" />
     <Content Include="assets\vendor\typed.js\typed.module.js.map" />
     <Content Include="assets\vendor\typed.js\typed.umd.js.map" />
+    <Content Include="assets\File\Çağatay ERDOĞDU__CV.pdf" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
